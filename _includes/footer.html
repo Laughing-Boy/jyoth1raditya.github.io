@@ -1,0 +1,37 @@
+<footer class="site-footer">
+
+  <div class="site-copy">&copy; {{ site.time | date: '%Y' }}<span class="site-author">{{ site.author }}</span></div>
+
+  <div class="site-links">
+    <div class="site-contact">
+      <ul>
+        {% if site.email %}
+        <li ><a href="mailto:{{ site.email }}"><i class="fa fa-2x fa-envelope-o"></i></a></li>
+        {% endif %}
+
+        {% if site.github_username %}
+        <li ><a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}"><i class="fa fa-2x fa-github"></i></a></li>
+        {% endif %}
+
+        {% if site.twitter_username %}
+        <li ><a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-2x fa-twitter"></i></a></li>
+        {% endif %}
+        <li ><a target="_blank" rel="external" href="https://facebook.com/jyothiradity"><i class="fa fa-2x fa-facebook"></i></a></li>
+        <li ><a target="_blank" rel="external" href="https://www.linkedin.com/in/"><i class="fa fa-2x fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="site-source">
+      <ul>
+        <li><a target="_blank" href="https://github.com/{{ site.github_username }}/{{ site.github_source }}">Source</a></li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+<!-- site-footer -->
+
+{% if page.syntax %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css">
+{% endif %}
+
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
