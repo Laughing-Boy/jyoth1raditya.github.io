@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="lead pretty-links">
-  Hi! My name is [**Rishi Raj**](about/). Welcome to my personal blog. This is a place where I write about myself, my personal [projects](projects/) and my
+  Hi! My name is [**Jyothir Aditya**](about/). Welcome to my personal blog. This is a place where I write about myself, my personal [projects](projects/) and my
   professional [work](work/).
 
-  I am a student at *VIT University, Vellore, India* where I am pursuing my *Bachelor's Degree in Computer Science and Engineering.* 
+  I completed my *Bachelor's Degree in Electrical Engineering* from *IIT Mandi.*
 
   You can contact me anywhere on the links at the bottom. *Have a Good Day!*
 </div>
