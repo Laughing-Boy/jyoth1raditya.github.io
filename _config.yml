@@ -29,15 +29,12 @@ paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
-  - title: Articles
+  - title: Blog
     url: /articles/
     desc: What I'd like to share with you
   - title: Projects
     url: /projects/
     desc: What I love to spend time on
-  - title: Work
-    url: /work/
-    desc: My Clients and Startups I Work For
   - title: About
     url: /about/
     desc: Know me a little
